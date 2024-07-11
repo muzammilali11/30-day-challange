@@ -1,0 +1,61 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(155, 166, 222);
+  font-size: 40px;
+}
+a {
+  text-decoration: none;
+  color: green;
+}
+.btn-container a {
+  border: 5px solid black;
+  border-radius: 10px;
+}
+.tab-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.form-containner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  background-color: aqua;
+  height: 650px;
+}
+.btn-next {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-thanks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background-color: rgb(155, 166, 222);
+  text-align: center;
+}
+
+.btn-thanks h1 {
+  margin: 10px 0;
+}
+.btn-thanks h4 {
+  margin: 10px 0;
+}
+.btn-thanks .button {
+  margin-top: 20px;
+}
+.btn-thanks a {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
